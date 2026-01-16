@@ -1,9 +1,10 @@
-import './App.css';
-
+import Calendar from './components/Calendar';
+import DailySchedule from './components/PersonalSchedule';
+import Schedule from './components/Schedule';
 function App() {
   return (
     <div>
-      <p>Hello</p>
+      <Schedule />
     </div>
   );
 }
